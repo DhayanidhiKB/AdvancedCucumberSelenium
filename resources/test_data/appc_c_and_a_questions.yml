@@ -1,0 +1,69 @@
+discovery:
+  objective: What primary objective will this opportunity address for the customer (reason for change)?
+  timeframe: What is the customer's timeframe to solve this problem?
+  keyDriver: What is the key business driver behind changing service provider?
+
+appcPilotOnly:
+  productCategory: What category would the customer products be defined as?
+  annualVolume: What is the annual volume?
+  deliverySpeed: What speed of delivery does the customer require?
+  lodge: How will the customer lodge parcels?
+  access: Do you currently have access to multiple speeds with your current provider?
+  provider: Which provider do you use currently to get your articles delivered?
+  freightType: What is the freight type?
+  returns: What is the % of returns?
+  dangerous: If the product is dangerous, Pl select the category that applies
+  portion: What proportion of the freight is dangerous goods?
+  revenue: Estimated Annual Revenue
+
+sameDay:
+  state: For same day, what is the distribution % to same state?
+  interState: For same day, what is the distribution % to interstate?
+  regional: For same day, what is the distribution % to regional regions?
+
+nextDay:
+  state: For next day, what is the distribution % to same state?
+  interState: For next day, what is the distribution % to interstate?
+  regional: For next day, what is the distribution % to regional regions?
+
+2+Day:
+  state: For 2+ days, what is the distribution % to same state?
+  interState: For 2+ days, what is the distribution % to interstate?
+  regional: For 2+ days, what is the distribution % to regional regions?
+
+lodged:
+  overCounter: What % of parcels will be lodged over the counter?
+  adhoc: What % of parcels will be lodged adhoc?
+  permanentCollection: What % of parcels would need permanent collection?
+  pickupScheduling: What day is preferred for permanent pickup scheduling?
+  pickupTime: What is the Pick up time?
+  eParcel.pickupTime: What is the pickup time?
+
+transitCover:
+  require: Does the customer require transit cover
+  eParcel.require: Does the customer require Transit cover?
+  amount: What is the minimum transit cover amount per article
+  eParcel.amount: What is the min transit cover amount per article ($)?
+
+cartons:
+  volume: What is the % volume of cartons per annum?
+  maxWeight: What is the % Volume of cartons over 22Kg?
+  dimensions: What is the % Volume of carton with dimensions over 100 cm?
+
+satchels:
+  volume: What % volume of satchels per annum?
+  maxWeight: What is the maximum weight of the satchels?
+
+eParcel:
+  monthlyVolume: What is the minimum monthly volume?
+  dangerous: If product is dangerous, select category that applies
+  portion: What % of freight is dangerous?
+  signature: Is signature on delivery required?
+
+eParcelCartons:
+  volume: What is the volume of cartons per month?
+  maxWeight: What is the max weight per carton (kg)?
+  dimensions: What is the largest carton dimensions (L x W x H cm)?
+
+eParcelSatchels:
+  volume: What volume of satchels per month?
