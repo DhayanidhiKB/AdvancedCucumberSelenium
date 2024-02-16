@@ -2,6 +2,7 @@ package com.my.salesforce.sandbox.helpers.testdata;
 
 import com.my.salesforce.sandbox.properties.UserConfig;
 import org.jetbrains.annotations.NotNull;
+
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.FileInputStream;

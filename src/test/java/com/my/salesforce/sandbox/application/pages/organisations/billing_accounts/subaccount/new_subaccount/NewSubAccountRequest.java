@@ -11,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 @Setter
 public class NewSubAccountRequest extends BasePage implements NewSubAccountRequestPageElements {
     public NewSubAccountRequest is_ready() {
-        /*switch_to_frame(iFrame);*/
         isItVisible(Header);
         isItInteractable(locate(SubHeader, "Parent Details"));
         isItInteractable(locate(SubHeader, "Sub Account Request Details"));

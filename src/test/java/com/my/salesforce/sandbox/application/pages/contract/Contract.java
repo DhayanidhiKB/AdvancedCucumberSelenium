@@ -14,7 +14,6 @@ import java.time.Duration;
 @Setter
 public class Contract extends BasePage implements ContractPageElements {
     public Contract create_contract() {
-        //isItInteractable(locate(StageAhead, "In Signatures")).scrollIntoView(true);
         clickOn(CreateContract);
         return this;
     }

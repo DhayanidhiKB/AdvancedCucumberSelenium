@@ -16,35 +16,15 @@ public class Activate_The_Contract {
     public void activate_the_contract(String opp_name, String contract_step, String contract_status, @NotNull Contract contract) {
         this.lBase.salesforce
                 .getLoginPage().getHeader().getAppNavigator()
-                .getOpportunities().getOpportunityHeader()
-                /*.getProposalPage()
-                .is_ready()
-                .getCreateContractTypes()
-                .create_contract()
-                .getContractHeader()
-                .is_ready().verify_contract_details(opp_name, this.lBase.proposalName)
-                .getContractPage()
-                .create_contract().create_contract_documents()*/;
+                .getOpportunities().getOpportunityHeader();
 
         this.lBase.salesforce
                 .getLoginPage().getHeader().getAppNavigator()
-                .getOpportunities().getOpportunityHeader()
-                /*.getProposalPage().getCreateContractTypes()
-                .getContractHeader()
-                .is_ready().ready_to_sign()
-                .getContractPage()
-                .signing_the_contract(contract.getStep(), contract.getStep_status(), contract.getApproval_status())
-                .verify(contract.getStep(), contract.getSigned_status())
-                .activate_contract(contract_step, contract_status)
-                .verify(contract_step, contract_status)*/;
+                .getOpportunities().getOpportunityHeader();
 
-        /*this.lBase.contractName = */
         this.lBase.salesforce
                 .getLoginPage().getHeader().getAppNavigator()
-                .getOpportunities().getOpportunityHeader()
-                /*.getProposalPage().getCreateContractTypes()
-                .getContractHeader()
-                .is_ready().get_name()*/;
+                .getOpportunities().getOpportunityHeader();
         System.out.println("Contract Name:" + this.lBase.contractName);
     }
 }

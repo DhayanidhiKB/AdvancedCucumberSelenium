@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class OutStandingActions extends BasePage implements OutStandingActionsElements {
     public OutStandingActions is_ready() {
-        //isItVisible(ThemeError);
+        isItVisible(ThemeError);
         return this;
     }
 
@@ -20,8 +20,8 @@ public class OutStandingActions extends BasePage implements OutStandingActionsEl
 
     public void verify_actions_for_the_stage(@NotNull String stage) {
         switch (stage) {
-           /* case "Identify":
-                isItVisible(MessageIdentifyToQualify);
+          case "Identify":
+                isItVisible(MessageQualifyToPropose1);
                 break;
             case "Qualify":
                 isItVisible(MessageQualifyToPropose1);
@@ -34,7 +34,7 @@ public class OutStandingActions extends BasePage implements OutStandingActionsEl
             case "Negotiate":
                 isItVisible(MessageNegotiateToClosedWon1);
                 isItVisible(MessageNegotiateToClosedWon2);
-                break;*/
+                break;
         }
     }
 

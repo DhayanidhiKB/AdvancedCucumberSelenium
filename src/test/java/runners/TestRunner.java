@@ -10,6 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         monochrome = true,
         plugin = {"pretty",
                 "html:target/cucumber_reports/UCTProject.html",
+                "com.my.salesforce.sandbox.application.toolsIntegration.PractiTestManager",
                 "json:target/cucumber_reports/UCTProject.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "rerun:results/failed_scenarios.txt"}

@@ -2,6 +2,7 @@
 
 <suite name="Customer Simplification" verbose="1">
     <test name="Regression Testing">
+        <parameter name= "testId" value="2798962"/>
         <classes>
             <class name="runners.TestRunner"/>
         </classes>

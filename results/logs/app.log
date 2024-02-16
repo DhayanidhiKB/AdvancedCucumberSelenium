@@ -1,4 +1,38 @@
-[INFO ] 2024-02-06 17:46:45.330 [main] BrowserSupplier - User has request to launch:CHROME
-[INFO ] 2024-02-06 17:46:53.823 [main] BrowserSupplier - Initializing Chrome browser...
-[INFO ] 2024-02-06 17:49:07.821 [main] BrowserSupplier - User has request to launch:CHROME
-[INFO ] 2024-02-06 17:49:07.881 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:02:41.375 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:02:41.620 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:02:41.903 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:02:42.790 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:09:12.262 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:09:12.419 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:09:12.683 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:09:13.952 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:11:40.772 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:11:40.896 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:11:41.154 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:11:42.198 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:14:35.662 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:14:35.815 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:14:36.084 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:14:40.321 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:19:19.698 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:19:19.845 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:19:20.100 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:19:21.314 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:21:21.181 [main] PractiTestManager - PractiTest SetID: 599933
+[INFO ] 2024-02-16 15:24:30.185 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:24:30.349 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:24:30.631 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:24:31.832 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:26:31.099 [main] PractiTestManager - PractiTest SetID: 599933
+[INFO ] 2024-02-16 15:37:46.839 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:37:46.978 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:37:47.234 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:37:48.113 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:48:54.544 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:48:54.695 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:48:54.977 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:48:56.055 [main] BrowserSupplier - Initializing Chrome browser...
+[INFO ] 2024-02-16 15:57:23.491 [main] PractiTestManager - TestCase Started
+[INFO ] 2024-02-16 15:57:23.674 [main] PractiTestManager - PractiTest ProjectID 15204
+[INFO ] 2024-02-16 15:57:23.985 [main] BrowserSupplier - User has request to launch:CHROME
+[INFO ] 2024-02-16 15:57:25.061 [main] BrowserSupplier - Initializing Chrome browser...

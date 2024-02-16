@@ -28,11 +28,8 @@ public class OpportunityHeader extends BasePage implements OpportunityHeaderElem
     }
 
     public OpportunityHeader verify_opportunity_actions() {
-       /* isItInteractable(Follow);
-        isItInteractable(Edit);
-        isItInteractable(EditOnboarding);
-        isItInteractable(AddPricingProducts);
-        isItInteractable(BulkEditProducts);*/
+
+        isItInteractable(BulkEditProducts);
         return this;
     }
 

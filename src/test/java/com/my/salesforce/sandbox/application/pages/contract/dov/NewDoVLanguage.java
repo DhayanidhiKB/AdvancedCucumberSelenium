@@ -30,7 +30,6 @@ public class NewDoVLanguage extends BasePage implements NewDoVLanguageElements {
         actions().click(locate(Dov, "DoV Product")).pause(Duration.ofSeconds(1))
                 .sendKeys(product).pause(Duration.ofSeconds(1))
                 .sendKeys(Keys.ENTER).build().perform();
-        //locate(Option, product).scrollIntoView(true).shouldBe(enabled).shouldBe(interactable).shouldHave(appear).shouldHave(interactable).click();
         clickOn(Save);
     }
 

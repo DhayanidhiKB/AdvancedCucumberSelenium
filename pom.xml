@@ -32,6 +32,9 @@
         <testng.version>7.8.0</testng.version>
         <webdrivermanager.version>5.5.2</webdrivermanager.version>
         <zerocell.version>0.5.1</zerocell.version>
+        <practitest.version>1.1</practitest.version>
+        <okhttp.version>4.10.0</okhttp.version>
+        <jackson.core.version>2.15.2</jackson.core.version>
     </properties>
 
     <dependencies>
@@ -91,6 +94,13 @@
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>practitest</groupId>
+            <artifactId>PractiTest</artifactId>
+            <version>${practitest.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>io.github.sskorol</groupId>
             <artifactId>test-data-supplier</artifactId>
@@ -149,8 +159,32 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.core.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>tech.grasshopper</groupId>
             <artifactId>extentreports-cucumber7-adapter</artifactId>

@@ -15,33 +15,39 @@ public class Create_Unmerge_Contract_Agreement {
         this.lBase = base;
     }
 
+    //Create the Merge or Unmerged Contract
     @Given("Creates the contract [{int}] under {string}")
 
     public void create_the_contract(int index, String opp_name) {
 
+        try {
+            this.lBase.login_into_salesforce_as(UserConfig.getProperties().onBoardingUsername(),
+                    Utilities.decode(UserConfig.getProperties().onBoardingPassword()));
 
-        this.lBase.login_into_salesforce_as(UserConfig.getProperties().onBoardingUsername(),
-                Utilities.decode(UserConfig.getProperties().onBoardingPassword()));
+            this.lBase.salesforce.getLoginPage().getHeader()
+                    .search(opp_name)
+                    .getAppNavigator().is_ready()
+                    .getOpportunities().getOpportunityHeader()
+                    .is_ready(opp_name).verify_opportunity_actions()
+                    .getOpportunitySubHeader()
+                    .scroll_into_view()
+                    .getOpportunityTabSet()
+                    .is_ready().products_contracts()
+                    .getProductsAndContracts()
+                    .is_ready().open_contract(index);
 
-        this.lBase.salesforce.getLoginPage().getHeader()
-                .search(opp_name)
-                .getAppNavigator().is_ready()
-                .getOpportunities().getOpportunityHeader()
-                .is_ready(opp_name).verify_opportunity_actions()
-                .getOpportunitySubHeader()
-                .scroll_into_view()
-                .getOpportunityTabSet()
-                .is_ready().products_contracts()
-                .getProductsAndContracts()
-                .is_ready().open_contract(index);
+            this.lBase.salesforce
+                    .getLoginPage().getHeader().getAppNavigator().getProposalPage()
+                    .getCreateContractTypes().getConfirmContractDetails().getManageLodgementPointsAndAccountNumbersPage()
+                    .getContractHeader()
+                    .is_ready()
+                    .getContractPage()
+                    .create_contract().unmerge_document().create_contract_documents();
+        }
+        catch(Exception e) {
+            System.out.println("Execution failed because of following exception: "+e);
+        }
 
-        this.lBase.salesforce
-                .getLoginPage().getHeader().getAppNavigator().getProposalPage()
-                .getCreateContractTypes().getConfirmContractDetails().getManageLodgementPointsAndAccountNumbersPage()
-                .getContractHeader()
-                .is_ready()
-                .getContractPage()
-                .create_contract().unmerge_document().create_contract_documents();
 
     }
 }

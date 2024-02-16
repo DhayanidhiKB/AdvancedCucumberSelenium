@@ -9,11 +9,15 @@ import org.aeonbits.owner.Config;
         "system:env",
         "file:${user.dir}/resources/properties/user.properties",
         "file:${user.dir}/resources/properties/remote.properties",
-        "file:${user.dir}/resources/properties/sales-force.properties"})
+        "file:${user.dir}/resources/properties/sales-force.properties",
+        "file:${user.dir}/resources/properties/practiTest.properties"})
+
 public interface Properties extends Config {
     Browsers browser();
 
     Environments environment();
+
+
 
     int timeOut();
 
@@ -34,6 +38,15 @@ public interface Properties extends Config {
     String hubHost();
 
     String hubPort();
+
+    @Key("practitest.projectid")
+    Integer practiTestProjectId();
+
+    @Key("practitest.setid")
+    String practiTestSetId();
+
+    @Key("practitest.accessToken")
+    String practiTestAPIToken();
 
     @Key("${environment}.appUrl")
     String appUrl();

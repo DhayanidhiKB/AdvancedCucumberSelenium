@@ -61,9 +61,6 @@ public class StarTrackProductAttributesPage extends BasePage implements StarTrac
     public StarTrackProductAttributesPage review() {
         Uninterruptibles.sleepUninterruptibly(Duration.ofSeconds(10));
         clickOn(ReviewCart);
-        /*isItInteractable(ViewRateCard);
-        isItInteractable(NoLPRequired);
-        ProgressBar.shouldBe(disappear).shouldHave(disappear);*/
         return this;
     }
 

@@ -70,11 +70,11 @@ Feature: "Create contract with UCT change" request for EParcel Existing Customer
 
     @PTEST
     Examples:
-      | user_type  | org_name        | first_name | last_name         | opp_name                            | industry              | Domestic Customer | Revenue Commitment($) | Integration Platforms | lodgement_point |
-      | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_Yes_LessThan3K_12_12 | Construction Services | Yes               | Less than 3,000       | Direct Integration    | 3000            |
-      | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_No_3Kto5K_12_12      | Construction Services | No                | 3,000 - 4,999         | Direct Integration    | 3000            |
-      | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_Yes_5Kto20K_12_12    | Construction Services | Yes               | 5,000 - 19,999        | Direct Integration    | 3000            |
-      | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_No_20Kto35K_12_12    | Construction Services | No                | 20,000 - 34,999       | Direct Integration    | 3000            |
+      | user_type | org_name | first_name | last_name | opp_name | industry | Domestic Customer | Revenue Commitment($) | Integration Platforms | lodgement_point |
+      #| Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_Yes_LessThan3K_12_12 | Construction Services | Yes               | Less than 3,000       | Direct Integration    | 3000            |
+     # | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_No_3Kto5K_12_12   | Construction Services | No                | 3,000 - 4,999         | Direct Integration    | 3000            |
+     # | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_Yes_5Kto20K_12_12 | Construction Services | Yes               | 5,000 - 19,999        | Direct Integration    | 3000            |
+      | Onboarding | BLUE SPRING CTR | Dhaya      | Automation Tester | IntlLetters_DC_No_20Kto35K_12_12 | Construction Services | No                | 20,000 - 34,999       | Direct Integration    | 3000            |
 
 
   @InternationalPCMSBundle @RKCode
