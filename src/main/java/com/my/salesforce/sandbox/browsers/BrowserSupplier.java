@@ -31,7 +31,8 @@ public class BrowserSupplier {
     private static final EnumMap<Browsers, Supplier<WebDriver>> map = new EnumMap<>(Browsers.class);
 
     private static final Supplier<WebDriver> chrome = () -> {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().clearDriverCache().setup();
+        WebDriverManager.chromedriver().clearResolutionCache().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         chromeOptions.addArguments("--disable-notifications");

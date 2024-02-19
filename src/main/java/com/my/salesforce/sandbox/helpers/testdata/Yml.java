@@ -2,8 +2,8 @@ package com.my.salesforce.sandbox.helpers.testdata;
 
 import com.my.salesforce.sandbox.properties.UserConfig;
 import org.jetbrains.annotations.NotNull;
-
 import org.yaml.snakeyaml.Yaml;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -73,6 +73,7 @@ public class Yml {
     }
 
     public <T> T loadAs(final String fileName, Class<T> c) {
+
         Yaml yaml = new Yaml();
         try {
             return yaml.loadAs(new FileReader(ROOT_DIRECTORY + UserConfig.getProperties().testData() + fileName), c);

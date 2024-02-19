@@ -29,9 +29,9 @@ public class Hooks {
     }
 
     @After
-    public void shut_down() {
+  /*  public void shut_down() {
         this.lBase.salesforce.shut_down();
-    }
+    }*/
 
     @AfterStep
     public void addSnapShot(@NotNull Scenario scenario) throws IOException {

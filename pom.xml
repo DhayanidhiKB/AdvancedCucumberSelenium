@@ -26,11 +26,11 @@
         <owner.version>1.0.12</owner.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenide.version>7.0.2</selenide.version>
-        <selenium.version>4.15.0</selenium.version>
+        <selenium.version>4.17.0</selenium.version>
         <shutterbug.version>1.6</shutterbug.version>
         <test.data.supplier.version>1.9.7</test.data.supplier.version>
         <testng.version>7.8.0</testng.version>
-        <webdrivermanager.version>5.5.2</webdrivermanager.version>
+        <webdrivermanager.version>5.6.3</webdrivermanager.version>
         <zerocell.version>0.5.1</zerocell.version>
         <practitest.version>1.1</practitest.version>
         <okhttp.version>4.10.0</okhttp.version>
